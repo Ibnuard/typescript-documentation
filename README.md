@@ -1,6 +1,6 @@
 ![My Image](logo.png)
 
-# typescript-documentation
+# Typescript Documentation
 Typescript documentation for personal use
 
 ## Typescript Type ( Variable Declaration )
