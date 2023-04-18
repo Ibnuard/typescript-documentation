@@ -188,3 +188,36 @@ Sample how to make object
     return x+y
   }
   ```
+
+## Classes
+
+- Class Basic
+
+```
+//define class
+
+class User{
+
+  //properties
+
+  id: number
+  fullname: string
+
+  //method
+
+  login(){}
+  register(){}
+
+
+  //first executed
+  constructor(id: number, fullname: string){
+    this.id = id, // defining properties
+    this.fullname = fullname
+  }
+}
+
+// use class / instance
+
+let myUser = new User(1, "dodo")
+
+```
