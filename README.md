@@ -66,6 +66,97 @@ How to declare an array :
     let arr : Array<string> = ['apple', 'banana', 'mango']
     ```
     
+
+## Object
+
+  1. Object Literal
+  2. Nested Object
+  3. Nested, Object of Array
+  4. Nested, Object of Object
+  5. Object Destructing
+  
+Sample how to make object
+
+  - Type inference
+    
+    ```
+    let obj = {
+      id: 15,
+      name: "ibnu"
+    }
+    ```
+    
+   - Inline interface
+     
+     ```
+     let obj = {
+       id: number,
+       name: string
+     }
+     
+     
+     obj = {
+       id: 15,
+       name: "ibnu"
+     }
+     ```
+     
+   - Interface
+   
+     ```
+     
+     //define interface
+     
+     interface User {
+       id: number,
+       name: string
+     }
+     
+     
+     // use interface at object
+     
+     let obj : User
+     
+     obj = {
+       id: 15,
+       name: "ibnu"
+     }
+     ```
+     
+   - Nested Object
+   
+     ```
+     
+     //define interface
+     
+     interface User {
+       id: number,
+       name: string,
+       detail: UserDetail // call interface
+     }
+     
+     
+     // nested interface
+     
+     interface UserDetail {
+       age: number,
+       nickname: string
+     }
+     
+     
+     // use interface at object
+     
+     let obj : User
+     
+     obj = {
+       id: 15,
+       name: "ibnu",
+       detail: {
+         age: 21,
+         nickname: "nuu"
+       }
+     }
+     ```
     
 
 
