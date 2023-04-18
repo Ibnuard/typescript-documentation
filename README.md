@@ -164,11 +164,9 @@ Sample how to make object
 - Function Declaration
 
   ```
-
   function sum(x: number, y: number, z?: number) : number {
     return x+y
   }
-
   ```
 
   note :
@@ -178,21 +176,15 @@ Sample how to make object
 - Function Expression
 
   ```
-
   const addData = function (a: number, b: number) : number {
     return a+b
   }
-
-
   ```
 
 - Function Arrow
 
   ```
-
   const addData = (x: number, y: number): number => {
     return x+y
   }
-
-
   ```
